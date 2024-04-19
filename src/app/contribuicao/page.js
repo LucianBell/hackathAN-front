@@ -130,7 +130,7 @@ export default function Contribuicao() {
   const router = useRouter();
 
   const handleClicl = (id) => {
-    router.push(`/item`);
+    router.push(`/enviarDescricao`);
   }
 
   return (
@@ -226,13 +226,18 @@ export default function Contribuicao() {
     >
     */
 
-    <main className=' bg-white'>
+    <main className=' bg-white' style={{
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      flexDirection: "column",
+    }}>
       <h1>Comece a contribuir!</h1>
 
       <h2>Escolha um arquivo:</h2> 
 
         <section>
-        <h3>Audiovisuais</h3>
+        <h2>Audiovisuais</h2>
 
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
           <button onClick={()=>handleClicl(1)}>
@@ -246,7 +251,8 @@ export default function Contribuicao() {
           </button>
         </div>
 
-        <h3>Cartográficos</h3>
+        <br />
+        <h1>Cartográficos</h1>
 
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
           <button onClick={()=>handleClicl(1)}>
@@ -260,7 +266,8 @@ export default function Contribuicao() {
           </button>
         </div>
 
-        <h3>Iconográficos</h3>
+        <br />
+        <h1>Iconográficos</h1>
 
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
           <button onClick={()=>handleClicl(1)}>
@@ -274,7 +281,8 @@ export default function Contribuicao() {
           </button>
         </div>
 
-        <h3>Sonoros</h3>
+        <br />
+        <h1>Sonoros</h1>
 
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'flex-start'}}>
           <button onClick={()=>handleClicl(1)}>

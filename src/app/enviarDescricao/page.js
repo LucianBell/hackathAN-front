@@ -1,4 +1,8 @@
 export default function page() {
+
+  const handleSubmit = (e) => {
+  }
+
   return (
     <main className=" bg-white text-center">
       <h1 className=" text-3xl font-bold mx-2 pt-12">Formulário de Submissão</h1>
