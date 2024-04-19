@@ -33,7 +33,7 @@ export default function Home() {
           confira nossas redes sociais!
         </h2>
 
-        <div className=" items-center grid grid-cols-3">
+        <div className=" pl-20 my-6 items-center grid grid-cols-3">
           <div>
             <FaFacebook className=" text-4xl"/>
           </div>

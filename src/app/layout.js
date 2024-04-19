@@ -14,43 +14,43 @@ export default function RootLayout({ children }) {
     <html lang="en" className=" bg-white">
       <body className={`${inter.className} bg-white text-black`}>
         <header className=" border-b-2 border-color-blue flex max-w w-full justify-between p-3 bg-color-gray">
-          <img src="" />
+          <img src="../../images/logo-hackathan.svg" />
 
           <nav className=" flex items-center">
             <ul className=" flex">
               <li className="">
                 <a
                   className="text-xl h-full transition-all ease-in-out duration-100 hover:text-color-orange"
-                  href=""
+                  href="/contribuicao"
                 >
-                  Item 1
+                  Faça uma contribuição
                 </a>
               </li>
               <li className=" mx-6">
                 <a
                   className="text-xl h-full transition-all ease-in-out duration-100 hover:text-color-orange"
-                  href=""
+                  href="https://www.gov.br/arquivonacional/pt-br"
                 >
-                  Item 2
+                  Conheça o AN
                 </a>
               </li>
               <li>
                 <a
                   className="text-xl h-full transition-all ease-in-out duration-100 hover:text-color-orange"
-                  href=""
+                  href="/criaConta"
                 >
-                  Item 3
+                  Registre-se
                 </a>
               </li>
             </ul>
           </nav>
 
-          <a href="" className="hover:text-6xl">
-            <CiUser className=" text-4xl transition-all ease-in-out duration-100 hover:text-color-orange" />
+          <a href="/login" className="hover:text-6xl">
+            <CiUser className=" text-4xl transition-all ease-in-out duration-100 text-color-orange hover:text-color-dark-orange" />
           </a>
         </header>
         {children}
-        <footer className=" flex justify-center mt-16 bg-color-gray w-full py-5">
+        <footer className=" flex justify-center bg-color-gray w-full py-5">
           <a href="https://www.gov.br/arquivonacional/pt-br" target="_blank">
             <img src="../../images/an-logo.png" />
           </a>
