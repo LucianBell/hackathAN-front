@@ -59,6 +59,24 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <section>
+      <div className=" w-400 h-380 mb-10 ml--10 mt-30 bg-gradient-to-br from-red-800 to-orange-600 text-white rounded-lg p-20">
+            <h2 className=" text-3xl align-middle">10 maiores contribuintes da semana!</h2>
+            <ol>
+              <li class="top1" className=" mb-1 after:content-['___________1000_PONTOS'] mt-3"> 1. Jose Marcelo Nunes</li>
+              <li class="top2" className=" mb-1 after:content-['___________1000_PONTOS']"> 2. Isadora dos Santos Copatti</li>
+              <li class="top3" className=" mb-1 after:content-['___________1000_PONTOS']"> 3. Maria Ribeiro dos Santos</li>
+              <li class="top4" className=" mb-1 after:content-['___________1000_PONTOS']"> 4. Alessandro Vastrinche Barbizan</li>
+              <li class="top5" className=" mb-1 after:content-['___________1000_PONTOS']"> 5. Luiz Marcelo Pinheiro Neto</li>
+              <li class="top6" className=" mb-1 after:content-['___________1000_PONTOS']"> 6. Ana da Silva Pedroso</li>
+              <li class="top7" className=" mb-1 after:content-['___________1000_PONTOS']"> 7. Gabriel Antonio Fagundes</li>
+              <li class="top8" className=" mb-1 after:content-['___________1000_PONTOS']"> 8. Ana Maria Marquezin</li>
+              <li class="top9" className=" mb-1 after:content-['___________1000_PONTOS']"> 9. Rafaela Rizzon Testa</li>
+              <li class="top10" className=" mb-1 after:content-['___________1000_PONTOS']"> 10. Marcelo Machado Zanandrea</li>
+            </ol>
+          </div>
+      </section>
     </main>
   );
 }
